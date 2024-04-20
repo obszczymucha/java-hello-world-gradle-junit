@@ -20,6 +20,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.32'
 
     testImplementation libs.junit
+    testImplementation 'org.assertj:assertj-core:3.25.3'
     testCompileOnly 'org.projectlombok:lombok:1.18.32'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.32'
 }
